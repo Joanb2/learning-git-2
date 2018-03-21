@@ -1,0 +1,24 @@
+.container {
+  width: 700px;
+  margin: 0 auto; }
+
+h1, h2 {
+  color: #0F0202;
+  text-align: center;
+  padding: 5px;
+  font-size: 70px;
+  margin: 0; }
+
+h2 {
+  font-size: 50px; }
+
+p {
+  font-size: 30px;
+  text-align: center;
+  color: #0F0202; }
+
+body {
+  background-color: #504343;
+  font-family: 'Farsan', cursive; }
+
+/*# sourceMappingURL=style.css.map */

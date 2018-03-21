@@ -1,7 +1,31 @@
-body {
-	background-color: #bbb;
+$head: #0F0202;
+$b_color: #504343;
+
+.container {
+	width: 700px;
+	margin: 0 auto;
 }
 
-h1, h2 {
-	color: #fff;
+h1 {
+	color: $head;
+	text-align: center;
+	padding: 5px;
+	font-size: 70px;
+	margin: 0;
+}
+
+h2 {
+	@extend h1;
+	font-size: 50px;
+}
+
+p {
+	font-size: 30px;
+	text-align: center;
+	color: $head;
+}
+
+body {
+	background-color: $b_color;
+	font-family: 'Farsan', cursive;
 }
